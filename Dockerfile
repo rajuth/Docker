@@ -1,2 +1,3 @@
 FROM alpine
-RUN mkdir /data && COPY Dockerfile /data
+RUN mkdir /data 
+COPY ./Docker/Dockerfile /data
